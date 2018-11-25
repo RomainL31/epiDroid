@@ -1,0 +1,58 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+
+   <ImageView
+       android:src="@drawable/logo_login"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical"
+       android:paddingBottom="30dp" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loginText"
+            android:ems="10"
+            android:id="@+id/login"
+            android:inputType="text"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/passwordText"
+            android:ems="10"
+            android:id="@+id/mdp"
+            android:layout_below="@+id/login"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:enabled="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cpb_textComplete="@string/loginComplete"
+            app:cpb_textError="@string/loginError"
+            app:cpb_textIdle="@string/loginButton"
+            android:layout_below="@+id/mdp"
+            android:layout_marginTop="30dp"
+            android:visibility="visible" />
+
+</LinearLayout>

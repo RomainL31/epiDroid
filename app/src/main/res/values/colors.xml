@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="epi_blue">#005DA1</color>
+	<color name="background">#ffdedede</color>
+    <color name="white">#ffffffff</color>
+	<color name="grey_1000">#ffdedede</color>
+    <color name="material_blue_500">#ff2196F3</color>
+    <color name="primary_dark_material_light">#001a60</color>
+    <color name="primary_material_light">#005da1</color>
+    <color name="secondary_text_material_light">#454748</color>
+    <color name="secondary_text_material_dark">#0693be</color>
+    <color name="black">#202020</color>
+    <color name="colorPrimaryDark">#f1f1f1</color>
+    <color name="primary_text_material_light">#ffffff</color>
+    <color name="foreground_material_light">#f1f0f0</color>
+
+</resources>

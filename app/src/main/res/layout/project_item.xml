@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:orientation="vertical"
+android:longClickable="true"
+android:clickable="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/submission_title"
+        android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:textColor="#ff000000"
+        android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ff635e64"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/title_module"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fffa6419"
+            android:textSize="12sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/difftext" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:weightSum="1"
+            android:id="@+id/linearLayout2"
+            android:background="#42A5F5"
+            android:layout_below="@+id/difftext"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:layout_weight="0.9"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/start"
+                android:background="#1A237E" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
